@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+/* downloading font(s) */
+body {
+  background: url("../img/big b1-01-01-01.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/************** side menu backgroung and content ***********************/
+.left {
+  position: relative;
+}
+
+.all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebunner {
+  background: url("../img/side bunner-01.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 350px;
+  height: 665px;
+  margin: 0 0 0 4em;
+}
+
+.socialmedia {
+  position: absolute;
+  background: #d68b00;
+  margin-top: -7em;
+  margin-left: 1em;
+  width: 410px;
+  padding: 1em;
+}
+
+.socialmedialist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 250px;
+  margin-left: 5em;
+  margin-top: 0.3em;
+  padding: auto;
+}
+
+.sidemenu {
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  width: 80%;
+  margin: 10%;
+  margin-top: 10.5em;
+}
+
+.firstmenu {
+  display: block;
+  padding: 2em 0 1em 1em;
+}
+.firstmenu li {
+  padding-bottom: 1em;
+  font-weight: 500;
+  font-size: larger;
+}
+.firstmenu li :hover {
+  font-weight: bold;
+}
+
+.current {
+  color: #d68b00;
+  font-weight: bold;
+}
+
+/**************** middle section *********************/
+.center {
+  display: block;
+}
+
+.points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #b3b3b3;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 300px;
+  margin-left: 11.5em;
+}
+
+.secondmenu {
+  display: block;
+  font-size: x-large;
+  font-weight: 700;
+  margin-left: 8em;
+  text-align: center;
+  margin-top: 4.9em;
+}
+
+.menulist2 li {
+  padding-bottom: 2em;
+}
+
+.right {
+  margin-top: 570px;
+  margin-left: 8.5em;
+}
+.right input {
+  border: none;
+  width: 7em;
+  height: 2.5em;
+}
+.right .comment-cta {
+  margin-right: 1em;
+}
+.right .order-cta {
+  background: #d68b00;
+  color: #ffffff;
+}/*# sourceMappingURL=main.css.map */
